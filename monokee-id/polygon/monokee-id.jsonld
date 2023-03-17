@@ -1,0 +1,33 @@
+{
+    "@context": [
+        {
+            "@version": 1.1,
+            "@protected": true,
+            "id": "@id",
+            "type": "@type",
+            "MonokeeId": {
+                "@id": "https://raw.githubusercontent.com/monokee-dev/monokee-credential-schemes/main/monokee-id/polygon/monokee-id.jsonld#MonokeeId",
+                "@context": {
+                    "@version": 1.1,
+                    "@protected": true,
+                    "id": "@id",
+                    "type": "@type",
+                    "vocab": "https://raw.githubusercontent.com/monokee-dev/monokee-credential-schemes/main/monokee-id/polygon/monokee-id-vocab.md#",
+                    "xsd": "http://www.w3.org/2001/XMLSchema#",
+                    "uid": {
+                        "@id": "vocab:uid",
+                        "@type": "xsd:string"
+                    },
+                    "email": {
+                        "@id": "vocab:email",
+                        "@type": "xsd:string"
+                    },
+                    "schemaid": {
+                        "@id": "vocab:schemaid",
+                        "@type": "xsd:string"
+                    }
+                }
+            }
+        }
+    ]
+}
