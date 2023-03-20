@@ -106,9 +106,7 @@
             "type": "object",
             "required": [
                 "id",
-                "uid",
-                "email",
-                "schemaid"
+                "role"
             ],
             "properties": {
                 "id": {
@@ -116,18 +114,9 @@
                     "type": "string",
                     "format": "uri"
                 },
-                "uid": {
-                    "title": "Monokee User ID",
-                    "type": "string"
-                },
-                "email": {
-                    "title": "Monokee User Email",
-                    "type": "string",
-                    "format": "email"
-                },
-                "schemaid": {
-                    "title": "Monokee Schema ID",
-                    "type": "string"
+                "role": {
+                    "title": "Monokee User Role",
+                    "type": "integer"
                 }
             }
         }

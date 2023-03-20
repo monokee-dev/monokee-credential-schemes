@@ -1,8 +1,4 @@
-# uid
-It is the unique user id inside Monokee infrastructure
+# role
+It describes the role of the user in Monokee. It can be one of the following:
 
-# email
-It is the Monokee user's email
-
-# schemaid
-It is something like `did:monokee:schema:monokee-id`. It will be explored further in the future
+1 - Member 2 - Developer 3 - Admin
