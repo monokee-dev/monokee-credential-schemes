@@ -17,6 +17,10 @@
                     "employmentDate": {
                         "@id": "vocab:employmentDate",
                         "@type": "xsd:integer"
+                    },
+                    "birthday": {
+                        "@id": "vocab:birthday",
+                        "@type": "xsd:integer"
                     }
                 }
             }

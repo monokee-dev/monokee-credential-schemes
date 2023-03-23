@@ -3,8 +3,8 @@
     "type": "object",
     "$metadata": {
         "uris": {
-            "jsonLdContext": "https://raw.githubusercontent.com/monokee-dev/monokee-credential-schemes/main/monokee-id/polygon/monokee-id.jsonld",
-            "jsonSchema": "https://raw.githubusercontent.com/monokee-dev/monokee-credential-schemes/main/monokee-id/polygon/monokee-id.json"
+            "jsonLdContext": "https://raw.githubusercontent.com/monokee-dev/monokee-credential-schemes/main/monokee-id/polygon/monokee-id/monokee-id.jsonld",
+            "jsonSchema": "https://raw.githubusercontent.com/monokee-dev/monokee-credential-schemes/main/monokee-id/polygon/monokee-id/monokee-id.json"
         }
     },
     "required": [
@@ -106,7 +106,8 @@
             "type": "object",
             "required": [
                 "id",
-                "employmentDate"
+                "employmentDate",
+                "birthday"
             ],
             "properties": {
                 "id": {
@@ -116,6 +117,10 @@
                 },
                 "employmentDate": {
                     "title": "Monokee User employment date",
+                    "type": "integer"
+                },
+                "birthday": {
+                    "title": "Monokee User birthday",
                     "type": "integer"
                 }
             }
