@@ -6,16 +6,16 @@
             "id": "@id",
             "type": "@type",
             "MonokeeId": {
-                "@id": "https://raw.githubusercontent.com/monokee-dev/monokee-credential-schemes/main/monokee-id/polygon/monokee-id.jsonld#MonokeeId",
+                "@id": "https://raw.githubusercontent.com/monokee-dev/monokee-credential-schemes/main/monokee-id/polygon/monokee-id/monokee-id.jsonld#MonokeeId",
                 "@context": {
                     "@version": 1.1,
                     "@protected": true,
                     "id": "@id",
                     "type": "@type",
-                    "vocab": "https://github.com/monokee-dev/monokee-credential-schemes/blob/main/monokee-id/polygon/monokee-id-vocab.md#",
+                    "vocab": "https://github.com/monokee-dev/monokee-credential-schemes/blob/main/monokee-id/polygon/monokee-id/monokee-id-vocab.md#",
                     "xsd": "http://www.w3.org/2001/XMLSchema#",
-                    "role": {
-                        "@id": "vocab:role",
+                    "employmentDate": {
+                        "@id": "vocab:employmentDate",
                         "@type": "xsd:integer"
                     }
                 }

@@ -1,0 +1,25 @@
+{
+    "@context": [
+        {
+            "@version": 1.1,
+            "@protected": true,
+            "id": "@id",
+            "type": "@type",
+            "MonokeeRole": {
+                "@id": "https://raw.githubusercontent.com/monokee-dev/monokee-credential-schemes/main/monokee-id/polygon/monokee-role/monokee-role.jsonld#MonokeeRole",
+                "@context": {
+                    "@version": 1.1,
+                    "@protected": true,
+                    "id": "@id",
+                    "type": "@type",
+                    "vocab": "https://github.com/monokee-dev/monokee-credential-schemes/blob/main/monokee-id/polygon/monokee-role/monokee-role-vocab.md#",
+                    "xsd": "http://www.w3.org/2001/XMLSchema#",
+                    "role": {
+                        "@id": "vocab:role",
+                        "@type": "xsd:integer"
+                    }
+                }
+            }
+        }
+    ]
+}
