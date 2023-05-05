@@ -116,7 +116,7 @@
                 },
                 "friend": {
                     "title": "Are u a Monokee Friend?",
-                    "type": "boolean"
+                    "type": "integer"
                 }
             }
         }
